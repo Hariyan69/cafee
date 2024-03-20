@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Madimi+One&family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: aqua !important;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid aqua;
+}
+#navbarSupportedContent button{
+    background: aqua;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#home{
+    background: url(cb61d529477de50f9e122daf3c7b93e7.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#home h1{
+  color: white;
+  font-size: 80px;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 1px 0px #ccc,
+               0px 2px 0px #ccc,
+               0px 3px 0px #ccc,
+               0px 4px 0px #ccc,
+               0px 5px 0px #ccc,
+               0px 6px 0px #ccc,
+               0px 7px 0px #ccc;
+}
+
+#home p{
+    font-size: 18px;
+    color: white;
+
+}
+
+.signin{
+    background: aqua !important;
+    color: white !important;
+}
+#about{
+    background-color:lavender;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+
+    
+}
+#products{
+    background-color: lavenderblush;
+}
+#products h1{
+    font-size: 30px;
+
+}
+#products img{
+  width: 300px;
+  height: 250px;
+}
+.card{
+    width: 350px;
+    height: 400px;
+    background: lavenderblush !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+     border-radius: 20px !important;
+     overflow: hidden;  
+     justify-content: center;
+     align-items: center; 
+     margin: 20px 60px;    
+     transition: .2s;
+    
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+    inset -4px -4px 10px white;
+    transition: .2s;
+
+
+}
+
+#contact img{
+    height: 100%;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+#main{
+    background: url(8ccf323f75775a7a6320ae79c112872a.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-position: 2% 5%;
+    color: white;
+    font-size: 20px;
+}
+#box{
+    background-color:aliceblue;
+}
+#box h1{
+    font-size: 25px;
+    font-weight: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#box p{
+    font-size: 14px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    text-align: left;
+
+    
+}
+#contacte{
+    background-color:seashell;
+    color: black;
+}
+#mains{
+background-image: url(b477e8fc3e2399d9f7d90eee19b6dec2.jpeg); 
+color: white;
+background-size: cover;
+background-position: center;
+
+}
+#mains h1{
+    margin-top: 180px;
+    font-size: 50px;
+    color:black;
+    font-family:"Poppins", sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                   0px 2px 0px #ccc,
+                   0px 3px 0px #ccc,
+                   0px 4px 0px #ccc,
+                   0px 5px 0px #ccc,
+                   0px 6px 0px #ccc,
+                   0px 7px 0px #ccc;
+}
+#mains p{
+    font-family:"Poppins", sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+
+#contact{
+    background-color:black;
+    color: #ccc;
+}
+#join{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+
+/* form{
+    margin-left:20px ;
+    font-size: 14px;
+
+
+} */
+/* #forme{
+ background-image: url(images.png);
+ object-fit: cover;
+} */
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 400px;
+    padding: 5px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.input-group input:focus{
+    outline: none;
+}
+
+#bt{
+    background-color:aqua;
+    position: relative;
+    color: black;
+    /* min-width: 500px; */
+    border: none;
+}
+#form #bt:hover{
+    background-color: black;
+    color: white;
+}
+
+#message{
+    /* width: 500px; */
+    /* height: 100px; */
+    background-color: whitesmoke;
+    justify-content: start;
+    /* border: none; */
+    
+}
+#name{
+    color: rgb(242,18,18);
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.input-group.success input{
+    border-color:#0cc477;
+}
+.input-group.error input{
+    border-color: rgb(242,18,18);
+}
+footer{
+    background: rgba(170, 9, 9, 0.8);
+    text-align: center;
+    color: white;
+}
+
+
+
+@media screen and (max-width:600px){
+    
+    #menu{
+      position: relative;
+      max-width:580px ;
+      right: 30px;
+    }
+    #head{
+        position: relative;
+        left: 30px;
+
+
+    }
+     
+}
